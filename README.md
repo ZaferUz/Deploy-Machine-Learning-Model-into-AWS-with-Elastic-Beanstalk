@@ -23,7 +23,7 @@ if __name__ == '__main__':
 ```
 - Do not forget to install flask:
 ```
-- " pip3 install flask"
+pip3 install flask
 ```
 - Than create a virtual environment and activate it:
 ```
@@ -32,7 +32,7 @@ if __name__ == '__main__':
  source venv/bin/activate
 ```
 - Run the command to run application.py
-  ```
+```
   python3 application.py
 ```
 - Check the local host for the running app with Postman app.
@@ -62,7 +62,8 @@ if __name__ == '__main__':
 ## Task 3: Build a spam detector ML model
 - We will use our "SpamDetector.ipynb" file in the project file. 
 - Run the code and tune the "LogisticRegression" model.
-- Install sklearn library
+- Install sklearn library;
+
 ```
 pip3 install sklearn
 ```
